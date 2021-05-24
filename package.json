@@ -1,0 +1,30 @@
+{
+  "name": "styla-loader",
+  "version": "1.0.20",
+  "main": "./lib/index.js",
+  "description": "Styla Webpack Loader",
+  "keywords": [],
+  "homepage": "http://lpchat.ru",
+  "license": "MIT",
+  "developing": true,
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "lodash": "^4.17.4",
+    "plp": "^1.0.4",
+    "styla": "2.0.8"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@lab.lpchat.ru:lpchat/styla-loader.git"
+  },
+  "author": {
+    "name": "Maxim Demkin",
+    "email": "demkin.maxim@gmail.com"
+  },
+  "scripts": {
+    "test": "node ./test"
+  },
+  "publish": true,
+  "push": true
+}
